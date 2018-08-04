@@ -2,7 +2,7 @@
   "name": "insight-api-safecoin",
   "description": "A Safecoin blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git-ssh://git@github.com:Fair-Exchange/insight-api-safecoin.git",
+  "repository": "git://github.com/SafecoinInsight/insight-api-safecoin.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/Fair-Exchange/insight-api-safecoin/issues"
+    "url": "https://github.com/SafecoinInsight/insight-api-safecoin/issues"
   },
-  "homepage": "https://github.com/Fair-Exchange/insight-api-safecoin",
+  "homepage": "https://github.com/SafecoinInsight/insight-api-safecoin",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-lib-safecoin",
-    "bitcore-message-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-message-safecoin",
+    "bitcore-lib-safecoin": "git://github.com/SafecoinInsight/bitcore-lib-safecoin",
+    "bitcore-message-safecoin": "git://github.com/SafecoinInsight/bitcore-message-safecoin",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
